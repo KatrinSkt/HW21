@@ -1,4 +1,4 @@
-public class SlytherinStudent extends HogwartsStudent{
+public class SlytherinStudent extends HogwartsStudent {
 
     private int cunning;
     private int determination;
@@ -23,6 +23,7 @@ public class SlytherinStudent extends HogwartsStudent{
     public void compareTo(SlytherinStudent slytherinStudent) {
         compareToStudent(slytherinStudent);
     }
+
     public int getCunning() {
         return cunning;
     }

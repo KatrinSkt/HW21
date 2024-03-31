@@ -49,5 +49,6 @@ public class GriffindorStudent extends HogwartsStudent {
     public String toString() {
         return super.toString() + ", благородство: %d, честь: %d, храбрость: %d".formatted(nobility, honor, courage);
     }
+
 }
 
