@@ -62,6 +62,7 @@ public abstract class HogwartsStudent {
                     sumOfCharacteristics2,
                     sumOfCharacteristics1));
         }
+
     }
 
     public void compareOfHogwartsStudent(HogwartsStudent hogwartsStudent) {
@@ -87,11 +88,13 @@ public abstract class HogwartsStudent {
                     sumOfBaseCharacteristics1));
         }
     }
+
     @Override
     public String toString() {
         return "%s, сила магии: %d, дистанция трансгрессии: %d".formatted(name, powerOfMagic, transgressionDistance);
     }
-     public void print(){
-         System.out.println(this);
-     }
+
+    public void print() {
+        System.out.println(this);
+    }
 }

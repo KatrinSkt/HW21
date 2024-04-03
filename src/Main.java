@@ -36,7 +36,6 @@ public class Main {
         System.out.println();
 
         harry.compareToStudent(drako);
-
     }
 
     private static GriffindorStudent generateGriffindorStudent(String name) {

@@ -1,4 +1,4 @@
-public class RavenclawStudent extends HogwartsStudent{
+public class RavenclawStudent extends HogwartsStudent {
     private int smart;
     private int wise;
     private int witty;
@@ -20,6 +20,7 @@ public class RavenclawStudent extends HogwartsStudent{
     public void compareTo(RavenclawStudent ravenclawStudent) {
         compareToStudent(ravenclawStudent);
     }
+
     public int getSmart() {
         return smart;
     }
@@ -56,4 +57,5 @@ public class RavenclawStudent extends HogwartsStudent{
     public String toString() {
         return super.toString() + ", ум: %d, мудрость: %d, остроумие: %d, творчество: %d".formatted(smart, wise, witty, fullOfCreativity);
     }
+
 }

@@ -1,4 +1,4 @@
-public class HufflepuffStudent extends HogwartsStudent{
+public class HufflepuffStudent extends HogwartsStudent {
 
     private int hardWork;
     private int loyalty;
@@ -20,6 +20,7 @@ public class HufflepuffStudent extends HogwartsStudent{
     public void compareTo(HufflepuffStudent hufflepuffStudent) {
         compareToStudent(hufflepuffStudent);
     }
+
     public int getHardWork() {
         return hardWork;
     }
@@ -48,4 +49,5 @@ public class HufflepuffStudent extends HogwartsStudent{
     public String toString() {
         return super.toString() + ", трудолюбие: %d, верность: %d, честность: %d".formatted(hardWork, loyalty, honesty);
     }
+
 }
